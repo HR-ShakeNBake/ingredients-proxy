@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://localhost:4000/style.css">
+    <link rel="stylesheet" href="http://localhost:5000/style.css">
+    <link rel="stylesheet" href="http://localhost:7000/styles/styles.css"> 
+    <link rel="stylesheet" href="http://localhost:8000/styles/styles.css">
+    <title>FEC Demo</title>
+  </head>
+  <body>
+    <div id="summary"></div>
+    <div id="ingredients"></div>
+    <div id="directions-root"></div>
+    <div id="reviews"></div>
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <script src="http://localhost:4000/bundle.js"></script>
+    <script src="http://localhost:5000/bundle.js"></script>
+    <script src="http://localhost:8000/bundle.js"></script>
+    <script src="http://localhost:7000/dist/bundle.js"></script>
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+<!--     <script>
+      ReactDOM.render(
+        React.createElement('Summary'),
+        document.getElementById('Summary')
+      );
+      // ReactDOM.render(
+      //   React.createElement(Ingredients),
+      //   document.getElementById('Ingredients')
+      // );
+      // ReactDOM.render(
+      //   React.createElement(Directions),
+      //   document.getElementById('Directions')
+      // );
+      // ReactDOM.render(
+      //   React.createElement(Reviews),
+      //   document.getElementById('Reviews')
+      // );
+    </script> -->
+  </body>
+</html>
